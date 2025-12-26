@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Mugshot Generator | Precinct Glitch Protocol</title>
+    <meta name="description" content="Curious how you’d look in a mugshot? Upload a photo, and the Mugshot Generator will produce a detailed, police-style portrait automatically.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    <!-- CRT Overlay Effects -->
+    <div class="scanlines"></div>
+    <div class="noise-overlay"></div>
+    <div class="vignette"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-fingerprint accent-icon"></i>
+            <span class="glitch-text" data-text="MUGSHOT_GEN">MUGSHOT_GEN</span>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle Navigation">☰</button>
+        <nav>
+            <a href="#playground">[ GENERATE ]</a>
+            <a href="#how-to-use">[ PROTOCOL ]</a>
+            <a href="#gallery">[ EVIDENCE ]</a>
+            <a href="#testimonials">[ WITNESSES ]</a>
+            <a href="#faq">[ INTEL ]</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-animation"></div> <!-- Grid Scanner Animation -->
+        <div class="hero-bg-image">
+            <img src="images/hero-bg.jpg" alt="Precinct Background">
+        </div>
+        <div class="hero-content fade-in-up">
+            <div class="hero-badge">ID: UNKNOWN // STATUS: PENDING</div>
+            <h1>AI MUGSHOT <span class="accent-text">GENERATOR</span></h1>
+            <p>Curious how you’d look in a mugshot? Enter the booking station. Upload a photo, and the protocol will produce a detailed, police-style portrait automatically.</p>
+            <a href="#playground" class="btn btn-primary">INITIATE BOOKING</a>
+        </div>
+    </section>
+
+    <!-- Playground Section (LOCKED) -->
+    <section id="playground" class="playground-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>[ PROCESSING_LAB ]</h2>
+                <div class="separator-line"></div>
+            </div>
+            
+            <div class="locked-container">
+                <div class="lock-icon-wrapper">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <h3 class="locked-title">EFFECT LAB LOCKED</h3>
+                <p class="locked-message">The 'Mugshot Generator' protocol is currently in development by precinct technicians.</p>
+                
+                <div class="progress-wrapper">
+                    <div class="progress-label">
+                        <span>SYSTEM_INTEGRATION</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-track">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                    <div class="progress-status">ESTIMATED DEPLOYMENT: T-MINUS 48 HOURS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-to-use">
+        <div class="container">
+            <div class="section-header">
+                <h2>[ BOOKING_PROTOCOL ]</h2>
+                <p>Follow standard operating procedures for subject processing.</p>
+            </div>
+            <div class="steps-grid">
+                <!-- Step 1 -->
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <div class="step-icon"><i class="fa-solid fa-camera"></i></div>
+                    <h3>CAPTURE SUBJECT</h3>
+                    <p>Upload a clear frontal photo of the subject. Ensure lighting is adequate for biometric scanning.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <div class="step-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>AI PROCESSING</h3>
+                    <p>The system analyzes facial features and synthesizes a booking environment based on criminal archives.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <div class="step-icon"><i class="fa-solid fa-file-export"></i></div>
+                    <h3>FILE RELEASE</h3>
+                    <p>Download the generated mugshot. Subject is processed and entered into the permanent record.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>[ EVIDENCE_LOG ]</h2>
+                <p>Prior convictions and booking photos from the archive.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery-result-1.jpg" alt="Cyberpunk Hacker Mugshot">
+                    <div class="gallery-overlay">
+                        <span>CASE #492-A</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-result-2.jpg" alt="Vintage Noir Mugshot">
+                    <div class="gallery-overlay">
+                        <span>CASE #881-B</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-result-3.jpg" alt="Sci-Fi Cyborg Mugshot">
+                    <div class="gallery-overlay">
+                        <span>CASE #104-X</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>[ WITNESS_STATEMENTS ]</h2>
+                <p>Transcripts from processed subjects.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="quote">The accuracy is terrifying. It looks exactly like I was pulled in for questioning in 2077.</p>
+                    <div class="author">
+                        <span class="name">AGENT K.</span>
+                        <span class="role">/ SURVEILLANCE</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="quote">Never thought I'd look this tough. The lighting and placard details are incredibly realistic.</p>
+                    <div class="author">
+                        <span class="name">SUBJECT 89</span>
+                        <span class="role">/ CIVILIAN</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>[ SYSTEM_INTEL ]</h2>
+                <p>Frequently requested data packets.</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>// IS MY BIOMETRIC DATA SECURE?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Affirmative. All uploaded imagery is processed in a temporary cache and incinerated (deleted) from our servers within 24 hours of generation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>// CAN I USE THE MUGSHOT COMMERCIALLY?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. Once the file is released to you, you retain full rights to the generated imagery for personal or commercial usage protocols.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>// WHAT FILE TYPES ARE ACCEPTED?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The scanner accepts JPG, PNG, and WEBP formats. Ensure the subject's face is unobstructed by masks or heavy eyewear for optimal synthesis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fa-solid fa-fingerprint"></i>
+                    <span>MUGSHOT_GEN</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#" data-modal-target="privacy">PRIVACY_POLICY</a>
+                    <a href="#" data-modal-target="terms">TERMS_OF_SERVICE</a>
+                </div>
+                <div class="copyright">
+                    &copy; 2024 PRECINCT GLITCH PROTOCOL. ALL RIGHTS RESERVED.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Modal -->
+    <div id="privacy-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>[ PRIVACY_POLICY ]</h3>
+                <button class="close-modal" data-modal-close="privacy">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h4>1. Data Collection</h4>
+                <p>We collect only the minimum data necessary:</p>
+                <ul>
+                  <li>Images you upload for processing (temporarily stored)</li>
+                  <li>Basic usage analytics (non-personal)</li>
+                  <li>Browser type and device information</li>
+                </ul>
+
+                <h4>2. Image Processing</h4>
+                <p>Your uploaded images are:</p>
+                <ul>
+                  <li>Processed securely on our servers</li>
+                  <li>Automatically deleted within 24 hours</li>
+                  <li>Never shared with third parties</li>
+                  <li>Not used for AI training without consent</li>
+                </ul>
+
+                <h4>3. Data Security</h4>
+                <p>All data transmission is encrypted using SSL/TLS protocols.</p>
+
+                <h4>4. Cookies</h4>
+                <p>We use essential cookies only for site functionality.</p>
+
+                <h4>5. Your Rights</h4>
+                <p>You have the right to request deletion of any stored data.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms Modal -->
+    <div id="terms-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>[ TERMS_OF_SERVICE ]</h3>
+                <button class="close-modal" data-modal-close="terms">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h4>1. Acceptance of Terms</h4>
+                <p>By using this service, you agree to these Terms.</p>
+
+                <h4>2. Service Description</h4>
+                <p>This service provides AI-powered image transformation. Provided "as-is" without warranties.</p>
+
+                <h4>3. Acceptable Use</h4>
+                <p>You agree NOT to upload:</p>
+                <ul>
+                  <li>Illegal or unlawful content</li>
+                  <li>Explicit, pornographic, or obscene material</li>
+                  <li>Content depicting violence or harm</li>
+                  <li>Images you do not have rights to use</li>
+                </ul>
+
+                <h4>4. Intellectual Property</h4>
+                <p>You retain full ownership of your original images. Generated effects are royalty-free for personal and commercial use.</p>
+
+                <h4>5. Limitation of Liability</h4>
+                <p>We are not liable for any damages arising from the use of this service.</p>
+
+                <h4>6. Modifications</h4>
+                <p>We may update these terms at any time. Continued use constitutes acceptance.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
